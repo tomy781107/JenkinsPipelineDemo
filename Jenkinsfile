@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 
-                bat "start C:\\Users\\DH\\Downloads\\Test_Code\\alert_01.html" 
+                bat "start C:\\Users\\DH\\Downloads\\Test_Code\\alert_03.html" 
                 echo 'Hello World'
             }
         }
@@ -17,13 +17,13 @@ pipeline {
         }
         stage('Test') {
             steps {
-                bat "start C:\\Users\\DH\\Downloads\\Test_Code\\alert_03.html"
+                bat "start C:\\Users\\DH\\Downloads\\Test_Code\\alert_04.html"
                 echo 'Test ing'
             }
         }
         stage('Release') {
             steps {
-                bat "start C:\\Users\\DH\\Downloads\\Test_Code\\alert_04.html"
+                bat "start C:\\Users\\DH\\Downloads\\Test_Code\\alert_01.html"
                 echo 'Release ing'
             }
         }
